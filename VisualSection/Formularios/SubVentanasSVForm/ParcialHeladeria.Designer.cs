@@ -40,11 +40,8 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.copaBtn = new System.Windows.Forms.PictureBox();
             this.VERBtn = new System.Windows.Forms.Button();
-            this.cookiesCheckBox = new System.Windows.Forms.RadioButton();
             this.NdeHelados = new System.Windows.Forms.NumericUpDown();
             this.GuardarDC = new System.Windows.Forms.Button();
-            this.chicleCheckBox = new System.Windows.Forms.RadioButton();
-            this.limonCheckBox = new System.Windows.Forms.RadioButton();
             this.maniCB = new System.Windows.Forms.CheckBox();
             this.nutelaCB = new System.Windows.Forms.CheckBox();
             this.maniBtn = new System.Windows.Forms.PictureBox();
@@ -65,10 +62,13 @@
             this.Elija_su_sabor = new System.Windows.Forms.GroupBox();
             this.VainillaRadioButton = new System.Windows.Forms.RadioButton();
             this.ChocolateRadioButton = new System.Windows.Forms.RadioButton();
+            this.cookiesCheckBox = new System.Windows.Forms.RadioButton();
             this.FresaRadioButton = new System.Windows.Forms.RadioButton();
+            this.limonCheckBox = new System.Windows.Forms.RadioButton();
+            this.chicleCheckBox = new System.Windows.Forms.RadioButton();
             this.cookiesBtn = new System.Windows.Forms.PictureBox();
-            this.chicleBtn = new System.Windows.Forms.PictureBox();
             this.limonBtn = new System.Windows.Forms.PictureBox();
+            this.chicleBtn = new System.Windows.Forms.PictureBox();
             this.basitoBtn = new System.Windows.Forms.PictureBox();
             this.conoBtn = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -109,8 +109,8 @@
             this.tipo_de_recipiente.SuspendLayout();
             this.Elija_su_sabor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cookiesBtn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chicleBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.limonBtn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chicleBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.basitoBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.conoBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.FresaBtn)).BeginInit();
@@ -280,17 +280,6 @@
             this.VERBtn.UseVisualStyleBackColor = true;
             this.VERBtn.Click += new System.EventHandler(this.VERBtn_Click);
             // 
-            // cookiesCheckBox
-            // 
-            this.cookiesCheckBox.AutoSize = true;
-            this.cookiesCheckBox.Location = new System.Drawing.Point(301, 101);
-            this.cookiesCheckBox.Name = "cookiesCheckBox";
-            this.cookiesCheckBox.Size = new System.Drawing.Size(14, 13);
-            this.cookiesCheckBox.TabIndex = 16;
-            this.cookiesCheckBox.TabStop = true;
-            this.cookiesCheckBox.Tag = "ES";
-            this.cookiesCheckBox.UseVisualStyleBackColor = true;
-            // 
             // NdeHelados
             // 
             this.NdeHelados.Location = new System.Drawing.Point(568, 324);
@@ -317,28 +306,6 @@
             this.GuardarDC.Text = "Guardar datos";
             this.GuardarDC.UseVisualStyleBackColor = true;
             this.GuardarDC.Click += new System.EventHandler(this.GuardarDC_Click);
-            // 
-            // chicleCheckBox
-            // 
-            this.chicleCheckBox.AutoSize = true;
-            this.chicleCheckBox.Location = new System.Drawing.Point(171, 105);
-            this.chicleCheckBox.Name = "chicleCheckBox";
-            this.chicleCheckBox.Size = new System.Drawing.Size(14, 13);
-            this.chicleCheckBox.TabIndex = 14;
-            this.chicleCheckBox.TabStop = true;
-            this.chicleCheckBox.Tag = "ES";
-            this.chicleCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // limonCheckBox
-            // 
-            this.limonCheckBox.AutoSize = true;
-            this.limonCheckBox.Location = new System.Drawing.Point(41, 101);
-            this.limonCheckBox.Name = "limonCheckBox";
-            this.limonCheckBox.Size = new System.Drawing.Size(14, 13);
-            this.limonCheckBox.TabIndex = 12;
-            this.limonCheckBox.TabStop = true;
-            this.limonCheckBox.Tag = "ES";
-            this.limonCheckBox.UseVisualStyleBackColor = true;
             // 
             // maniCB
             // 
@@ -466,9 +433,9 @@
             this.label7.Font = new System.Drawing.Font("Century Schoolbook", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(437, 10);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(127, 20);
+            this.label7.Size = new System.Drawing.Size(131, 20);
             this.label7.TabIndex = 20;
-            this.label7.Text = "Elija añadidos...";
+            this.label7.Text = "Elija .añadidos...";
             // 
             // tipo_de_recipiente
             // 
@@ -553,6 +520,17 @@
             this.ChocolateRadioButton.Tag = "ES";
             this.ChocolateRadioButton.UseVisualStyleBackColor = true;
             // 
+            // cookiesCheckBox
+            // 
+            this.cookiesCheckBox.AutoSize = true;
+            this.cookiesCheckBox.Location = new System.Drawing.Point(290, 101);
+            this.cookiesCheckBox.Name = "cookiesCheckBox";
+            this.cookiesCheckBox.Size = new System.Drawing.Size(14, 13);
+            this.cookiesCheckBox.TabIndex = 16;
+            this.cookiesCheckBox.TabStop = true;
+            this.cookiesCheckBox.Tag = "ES";
+            this.cookiesCheckBox.UseVisualStyleBackColor = true;
+            // 
             // FresaRadioButton
             // 
             this.FresaRadioButton.AutoSize = true;
@@ -563,6 +541,28 @@
             this.FresaRadioButton.TabStop = true;
             this.FresaRadioButton.Tag = "ES";
             this.FresaRadioButton.UseVisualStyleBackColor = true;
+            // 
+            // limonCheckBox
+            // 
+            this.limonCheckBox.AutoSize = true;
+            this.limonCheckBox.Location = new System.Drawing.Point(41, 101);
+            this.limonCheckBox.Name = "limonCheckBox";
+            this.limonCheckBox.Size = new System.Drawing.Size(14, 13);
+            this.limonCheckBox.TabIndex = 12;
+            this.limonCheckBox.TabStop = true;
+            this.limonCheckBox.Tag = "ES";
+            this.limonCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // chicleCheckBox
+            // 
+            this.chicleCheckBox.AutoSize = true;
+            this.chicleCheckBox.Location = new System.Drawing.Point(171, 105);
+            this.chicleCheckBox.Name = "chicleCheckBox";
+            this.chicleCheckBox.Size = new System.Drawing.Size(14, 13);
+            this.chicleCheckBox.TabIndex = 14;
+            this.chicleCheckBox.TabStop = true;
+            this.chicleCheckBox.Tag = "ES";
+            this.chicleCheckBox.UseVisualStyleBackColor = true;
             // 
             // cookiesBtn
             // 
@@ -575,17 +575,6 @@
             this.cookiesBtn.TabStop = false;
             this.cookiesBtn.Click += new System.EventHandler(this.cookiesBtn_Click);
             // 
-            // chicleBtn
-            // 
-            this.chicleBtn.Image = global::VisualSection.Properties.Resources.chicle;
-            this.chicleBtn.Location = new System.Drawing.Point(132, 19);
-            this.chicleBtn.Name = "chicleBtn";
-            this.chicleBtn.Size = new System.Drawing.Size(100, 76);
-            this.chicleBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.chicleBtn.TabIndex = 15;
-            this.chicleBtn.TabStop = false;
-            this.chicleBtn.Click += new System.EventHandler(this.chicleBtn_Click);
-            // 
             // limonBtn
             // 
             this.limonBtn.Image = global::VisualSection.Properties.Resources.limon;
@@ -596,6 +585,17 @@
             this.limonBtn.TabIndex = 13;
             this.limonBtn.TabStop = false;
             this.limonBtn.Click += new System.EventHandler(this.limonBtn_Click);
+            // 
+            // chicleBtn
+            // 
+            this.chicleBtn.Image = global::VisualSection.Properties.Resources.chicle;
+            this.chicleBtn.Location = new System.Drawing.Point(132, 19);
+            this.chicleBtn.Name = "chicleBtn";
+            this.chicleBtn.Size = new System.Drawing.Size(100, 76);
+            this.chicleBtn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.chicleBtn.TabIndex = 15;
+            this.chicleBtn.TabStop = false;
+            this.chicleBtn.Click += new System.EventHandler(this.chicleBtn_Click);
             // 
             // basitoBtn
             // 
@@ -880,8 +880,8 @@
             this.Elija_su_sabor.ResumeLayout(false);
             this.Elija_su_sabor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cookiesBtn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chicleBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.limonBtn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chicleBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.basitoBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.conoBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.FresaBtn)).EndInit();
