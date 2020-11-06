@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MidSection.MidInicioDeSesion" Collapsed="true">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MidInicioDeSesion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MidSection.SubVentanasScripts.ExtraCode_PH.PHM_Obj">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABEIgRQAAAgAQAIABAAADAAAIQAAAIaBAAEQAAAABAA=</HashCode>
+      <FileName>SubVentanasScripts\ExtraCode PH\PHM_Obj.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MidSection.SubVentanasScripts.FormatTexts_Mid" Collapsed="true">
+    <Position X="5.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAAAAgIA=</HashCode>
+      <FileName>SubVentanasScripts\FormatTexts_Mid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MidSection.SubVentanasScripts.MidMatricesString" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAABAIAAAAAABAACCAAgAAAAAAAAAAA=</HashCode>
+      <FileName>SubVentanasScripts\MidMatricesString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MidSection.SubVentanasScripts.MidMetodosTipoString" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAEAgAAAABAAAAAAAAMBEIAAAAAAFAAAAAAAAAAQAA=</HashCode>
+      <FileName>SubVentanasScripts\MidMetodosTipoString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MidSection.SubVentanasScripts.ParcialHeladeria_Mid">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAAAAAQAAABoAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubVentanasScripts\ParcialHeladeria_Mid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

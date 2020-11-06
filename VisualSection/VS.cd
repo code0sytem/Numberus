@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VisualSection.FormularioDeArranque" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACgAABAAgDCAAAACABAAAAAAAAAAAQBQBCA=</HashCode>
+      <FileName>FormularioDeArranque.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Program" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.ConfDiseño" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAACAgAQAAAAAAAAAAAgAAAAgAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Formularios\ConfDiseño.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.ConfForm" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACGAABAAAACAAAACAACACAAAAAIAAAABEAA=</HashCode>
+      <FileName>Formularios\ConfForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.formularioSave" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Formularios\formularioSave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.Root" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Formularios\Root.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.VentanaPrincipalForm" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gwEQARgAYCCIgRBACCCAAGADAQgAAaAggsAQATjQhIA=</HashCode>
+      <FileName>Formularios\VentanaPrincipalForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.SubVentanasSVForm.EasyGeter" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAQAIAAIAAQAAAQAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Formularios\SubVentanasSVForm\EasyGeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.SubVentanasSVForm.FormatTextsDT" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgUAAAEIACAAARAACACAAEAKAAAABAAAAAgQAYAAAgE=</HashCode>
+      <FileName>Formularios\SubVentanasSVForm\FormatTextsDT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.SubVentanasSVForm.FormularioCT" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8wBaBwEAATBgUBJASumABQDGfYDAAAgA9EQQhUAASBE=</HashCode>
+      <FileName>Formularios\SubVentanasSVForm\FormularioCT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.SubVentanasSVForm.Inicial" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAABAAACAAAACAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Formularios\SubVentanasSVForm\Inicial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.SubVentanasSVForm.MatricesStringForm" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/wERgLiICDABRBHIQCWBBAASECIQAAiQiAEAwQAgoDA=</HashCode>
+      <FileName>Formularios\SubVentanasSVForm\MatricesStringForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.SubVentanasSVForm.ParcialHeladeria">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAmGVhwiTCCADBXIEQDAGIIeIBDUwTCKlNVkBabBiQE=</HashCode>
+      <FileName>Formularios\SubVentanasSVForm\ParcialHeladeria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.SubVentanasSVForm.ExtraSections_PH.FormaEntregaPH">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAAAACCABBGIACCCAAAqEgAAAAACACABMQAQAAo=</HashCode>
+      <FileName>Formularios\SubVentanasSVForm\ExtraSections PH\FormaEntregaPH.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Formularios.SubVentanasSVForm.ExtraSections_PH.FormaPagoPH">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAECAACCABJGIAiCAAAAqAAAAAAACACABAQAQAAA=</HashCode>
+      <FileName>Formularios\SubVentanasSVForm\ExtraSections PH\FormaPagoPH.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAEgAABIgAACABEAAABQsAACBBAEACQgAAKYE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualSection.Properties.Settings" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAAAAAAAAAAAAIAAAAAABAACAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

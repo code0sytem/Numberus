@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProcesamientoYcomunicacionExterna.InicioDeSesioN" Collapsed="true">
+    <Position X="8" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InicioDeSesioN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcesamientoYcomunicacionExterna.SQLConection" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAE=</HashCode>
+      <FileName>SQLConection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcesamientoYcomunicacionExterna.subVentanasScript.archivos_de_textos.FormatTexts" Collapsed="true">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAACAAAAAAECAAAAAAAAAAAAAAAAACCAAAA=</HashCode>
+      <FileName>subVentanasScript\FormatTexts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcesamientoYcomunicacionExterna.subVentanasScript.MatricesString" Collapsed="true">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAQAAAgAQAAAAACAAAAAAAAAAAAAgAAABAAAAAA=</HashCode>
+      <FileName>subVentanasScript\MatricesString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcesamientoYcomunicacionExterna.subVentanasScript.MetodosTipoString" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAABAAAACBAAAAAAAAAABAAABEIAACAAABAEEA=</HashCode>
+      <FileName>subVentanasScript\MetodosTipoString.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcesamientoYcomunicacionExterna.subVentanasScript.ParcialHeladeria.DataHelados">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAIBAAAEAAAACCAABAAEAAAEQABAAAAAAACAAQAA=</HashCode>
+      <FileName>subVentanasScript\ParcialHeladeria\DataHelados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProcesamientoYcomunicacionExterna.subVentanasScript.ParcialHeladeria.DataPrincipal">
+    <Position X="1" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACAAAAAAAAAAAAAAgAgAAAAAAAAAAAA=</HashCode>
+      <FileName>subVentanasScript\ParcialHeladeria\DataPrincipal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

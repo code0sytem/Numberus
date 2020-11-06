@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{55781145-760B-46B3-9C4C-10B2C48F8173}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>VisualSection</RootNamespace>
+    <AssemblyName>VisualSection</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormularioDeArranque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioDeArranque.Designer.cs">
+      <DependentUpon>FormularioDeArranque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ConfDiseño.cs" />
+    <Compile Include="Formularios\ConfForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ConfForm.Designer.cs">
+      <DependentUpon>ConfForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\formularioSave.cs" />
+    <Compile Include="Formularios\Root.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Root.Designer.cs">
+      <DependentUpon>Root.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\EasyGeter.cs" />
+    <Compile Include="Formularios\SubVentanasSVForm\ExtraSections PH\FormaEntregaPH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\ExtraSections PH\FormaEntregaPH.Designer.cs">
+      <DependentUpon>FormaEntregaPH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\ExtraSections PH\FormaPagoPH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\ExtraSections PH\FormaPagoPH.Designer.cs">
+      <DependentUpon>FormaPagoPH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\FormatTextsDT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\FormatTextsDT.Designer.cs">
+      <DependentUpon>FormatTextsDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\FormularioCT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\FormularioCT.Designer.cs">
+      <DependentUpon>FormularioCT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\Inicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\Inicial.Designer.cs">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\MatricesStringForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\MatricesStringForm.Designer.cs">
+      <DependentUpon>MatricesStringForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\ParcialHeladeria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SubVentanasSVForm\ParcialHeladeria.Designer.cs">
+      <DependentUpon>ParcialHeladeria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\VentanaPrincipalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\VentanaPrincipalForm.Designer.cs">
+      <DependentUpon>VentanaPrincipalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormularioDeArranque.resx">
+      <DependentUpon>FormularioDeArranque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ConfForm.resx">
+      <DependentUpon>ConfForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SubVentanasSVForm\ExtraSections PH\FormaEntregaPH.resx">
+      <DependentUpon>FormaEntregaPH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SubVentanasSVForm\ExtraSections PH\FormaPagoPH.resx">
+      <DependentUpon>FormaPagoPH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SubVentanasSVForm\FormatTextsDT.resx">
+      <DependentUpon>FormatTextsDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SubVentanasSVForm\FormularioCT.resx">
+      <DependentUpon>FormularioCT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SubVentanasSVForm\Inicial.resx">
+      <DependentUpon>Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SubVentanasSVForm\MatricesStringForm.resx">
+      <DependentUpon>MatricesStringForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SubVentanasSVForm\ParcialHeladeria.resx">
+      <DependentUpon>ParcialHeladeria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\VentanaPrincipalForm.resx">
+      <DependentUpon>VentanaPrincipalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="VS.cd" />
+    <None Include="Properties\DataSources\MidSection.SubVentanasScripts.FormatTexts_Mid.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Formularios\RootSubFormularios\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="RecursosVisuales\arequipe.png" />
+    <Content Include="RecursosVisuales\basito.png" />
+    <Content Include="RecursosVisuales\cedula.png" />
+    <Content Include="RecursosVisuales\cereal.png" />
+    <Content Include="RecursosVisuales\chicle.png" />
+    <Content Include="RecursosVisuales\chips.png" />
+    <Content Include="RecursosVisuales\chocolate.png" />
+    <Content Include="RecursosVisuales\cockies.png" />
+    <Content Include="RecursosVisuales\cono.png" />
+    <Content Include="RecursosVisuales\copa.png" />
+    <Content Include="RecursosVisuales\CorreoIcon.png" />
+    <Content Include="RecursosVisuales\direccionIcon.png" />
+    <Content Include="RecursosVisuales\Fondo_Inicial.jpg" />
+    <Content Include="RecursosVisuales\fresa.png" />
+    <Content Include="RecursosVisuales\gomitas.png" />
+    <Content Include="RecursosVisuales\horizontal-line.png" />
+    <Content Include="RecursosVisuales\limon.png" />
+    <Content Include="RecursosVisuales\mani.png" />
+    <Content Include="RecursosVisuales\nutella.png" />
+    <Content Include="RecursosVisuales\settingIcon.png" />
+    <Content Include="RecursosVisuales\TelefonoIcon.png" />
+    <Content Include="RecursosVisuales\Transparent_X.png" />
+    <Content Include="RecursosVisuales\tres lineas.png" />
+    <Content Include="RecursosVisuales\UserIcon.png" />
+    <Content Include="RecursosVisuales\vainilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MidSection\MidSection.csproj">
+      <Project>{c394f85c-ec45-41f6-93cb-603b3a47d496}</Project>
+      <Name>MidSection</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
